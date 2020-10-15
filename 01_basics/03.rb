@@ -1,7 +1,7 @@
-movies = {  :brick => 2005,
-            :birdcage => 1996,
-            :labyrinth => 1986,
-            :starship_troopers => 1997 }
+movies = {  :brick : 2005,
+            :birdcage : 1996,
+            :labyrinth : 1986,
+            :starship_troopers : 1997 }
 
 puts movies[:brick]
 puts movies[:birdcage]
