@@ -7,7 +7,6 @@ attributes = %i[email address phone]
 contact_data.each_index do |user_index|
   contact_data[user_index].each_index do |attr_index|
     contacts[contacts.keys[user_index]][attributes[attr_index]] = contact_data[user_index][attr_index]
-
   end
 end
 p contacts
